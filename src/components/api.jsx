@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const getData = async (params) => {
-    let URL = 'http://indicator-env.eba-ubx5a7g2.us-east-2.elasticbeanstalk.com/api'
+    let URL = 'https://api.jobindicator.org/api'
     try {
         let response = await axios.get(URL,{
            params: {
