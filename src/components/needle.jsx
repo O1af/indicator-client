@@ -78,7 +78,7 @@ const needle = () => {
       <Container>
         <h1 className="hero-title" >
             The Job Market Currently Favors:
-           <span className="text-color-main">{favor}</span>
+           <span className={"text-color-"+ favor}>{favor}</span>
         </h1>
 
         <ReactSpeedometer 
